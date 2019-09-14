@@ -1,0 +1,7 @@
+extraction:
+  java:
+    before_index:
+      - export ANT_OPTS=-Xmx5560m
+    index:
+      build_command:
+        - ant -f build.xml
