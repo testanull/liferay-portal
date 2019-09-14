@@ -1,0 +1,18 @@
+apply plugin: "com.liferay.node"
+apply plugin: "java"
+
+task runGradleTest
+
+node {
+	useNpm = true
+}
+
+runGradleTest {
+	dependsOn check
+
+	doLast {
+		File generatedFile = file("build/foo.txt")
+
+		assert generatedFile.text == "XXXXXXXfoo"
+	}
+}
