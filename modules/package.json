@@ -7,7 +7,7 @@
 		"fs-extra": "7.0.1",
 		"gulp": "3.9.1",
 		"jsdoc": "3.6.3",
-		"karma": "4.0.0",
+		"karma": "6.3.16",
 		"liferay-frontend-common-css": "1.0.4",
 		"liferay-jest-junit-reporter": "1.0.1",
 		"liferay-karma-alloy-config": "0.0.15",
